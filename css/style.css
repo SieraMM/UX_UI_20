@@ -1,0 +1,122 @@
+body {
+    background-color: #F5F4EF;
+    color: #020901;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.customNav{
+    position:fixed;
+    width: 100%;
+    background-color: #F8F991 !important;
+    
+    z-index: 10;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.bg-primary{
+    font-size: 20px;
+    font-weight: 200;
+}
+.navbar-brand img{
+    padding-right: 15px;
+    width: 65px;
+}
+.nav-item{
+    margin: 0px 15px;
+    
+}
+.dropdown-menu{
+    background-color:#F5F4EF;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #F5F4EF !important;;
+    text-decoration: none;
+    background: #002140;
+}
+.customNav a {
+    color: #001629;
+}
+.navCTA{
+    font-size: 15px;
+}
+.jumbotron{
+    border-top: 4px solid #251236;
+    border-bottom: 4px solid #251236;
+    background-image: url(/Images/poppyPattern.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(188,152,232, 50%); 
+    height: 600px;
+}
+
+.mockTron{
+    margin:auto;
+    border: 3px solid #251236;
+    padding-left: 200px;
+}
+.footer {
+    margin-top: 50px;
+    background-color: #4776DF;
+    color: #F5F4EF;
+    height: 245px;
+    width: 100%;
+}
+
+.upperline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:auto;
+    
+}
+.f-dis{
+    padding-left: 50px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    border-bottom: 3px solid #f5f4ef;
+    width: 100%;
+}
+.lower_line{
+    display: flex;
+    padding-top: 10px;
+    padding-left:50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.lower-left{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.short-me{
+    width: 100%;
+}
+.social-media{
+    margin-top: 30px;
+}
+.copyright{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+.ux-work{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 150px;   
+}
+.ux-work span{
+    font-weight: 400;
+}
+.ux-work ul{
+    list-style-type: none;
+}
+.ux-work li:hover{
+    text-decoration: underline;
+}
